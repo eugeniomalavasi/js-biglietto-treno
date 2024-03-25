@@ -8,24 +8,31 @@ let age = prompt("Quanti anni hai?"); //string
 console.log(age , typeof age);
 
 // trasformazione string in numeri
-km = parseInt(km); //number
+km = parseInt(km); // number
 console.log(km , typeof km);
 
-age = parseInt(age); //number
+age = parseInt(age); // number
 console.log(age , typeof age);
 
 // LOGICA
-// creazione var costo prezzo finale
-let ticketPrice;
 // var costo al km
-const priceKm = 0.21; //number
+const priceKm = 0.21; // number
 
-// calcolo prezzo biglietto in base per passeggeri di età fra 18 e e 65 anni compresi
-if (age >= 18 && age <= 65) {
-    // ticketPrice = "test per vedere se esce qualcosa";
-    ticketPrice = km * priceKm;
-}
+// var costo biglietto fra i 18 e i 65 compresi
+let ticketPrice = priceKm * km; // number
 console.log(ticketPrice);
 
+// calcolo costo biglietto con sconti in base all'età
+if (age < 18) {
+    ticketPrice = (ticketPrice - (ticketPrice / 100) * 20); // number
+    console.log(ticketPrice);
+} else if (age > 65) {
+    ticketPrice = (ticketPrice - (ticketPrice /100) * 40); // number
+    console.log(ticketPrice , typeof ticketPrice);
+}
+
+// ticketPrice = ticketPrice.toString();
+// console.log(typeof ticketPrice);
+
 // OUTPUT
-document.getElementById(ticket_price).innerHTML = ticketPrice;
+document.getElementById("finalprice").innerHTML = ticketPrice;

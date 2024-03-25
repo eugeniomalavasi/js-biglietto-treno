@@ -17,13 +17,11 @@ L'output del prezzo finale va messo fuori in forma umana (con massimo due decima
 ## Logica
 - [x] creazione variabile per il prezzo del biglietto (ticketPrice)
 - [x] creazione variabile costo al km (priceKm)
-- [ ] calcolo prezzo biglietto in base per passeggeri di età fra 18 e e 65 anni compresi
+- [x] calcolo prezzo biglietto base
     - 0.21 * km
-- [ ] calcolo prezzo biglietto per <18 
-    - if passengerAge <18 ticketPrice = ((ticketPrice / 100) * 20) + ticketPrice
-- [ ] calcolo prezzo biglietto per >65
-    - if passengerAge  >65 ticketPrice = ((ticketPrice / 100) * 40) + ticketPrice
+- [x] calcolo prezzo biglietto per < 18 
+- [x] calcolo prezzo biglietto per > 65
 - [ ] BONUS: mettere all'output del prezzo del biglietto due decimali dopo la virgola
 
 ## Output
-- [ ] stampare in HTML ticketPrice
+- [x] stampare in HTML ticketPrice
