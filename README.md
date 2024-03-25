@@ -18,7 +18,6 @@ L'output del prezzo finale va messo fuori in forma umana (con massimo due decima
 - [x] creazione variabile per il prezzo del biglietto (ticketPrice)
 - [x] creazione variabile costo al km (priceKm)
 - [x] calcolo prezzo biglietto base
-    - 0.21 * km
 - [x] calcolo prezzo biglietto per < 18 
 - [x] calcolo prezzo biglietto per > 65
 - [x] BONUS: mettere all'output del prezzo del biglietto due decimali dopo la virgola
