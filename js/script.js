@@ -17,11 +17,15 @@ console.log(age , typeof age);
 // LOGICA
 // creazione var costo prezzo finale
 let ticketPrice;
-
-const priceKm = 0.21;
+// var costo al km
+const priceKm = 0.21; //number
 
 // calcolo prezzo biglietto in base per passeggeri di età fra 18 e e 65 anni compresi
-if (age < 18 && age > 65) {
-    ticketPrice = "sei medio";
+if (age >= 18 && age <= 65) {
+    // ticketPrice = "test per vedere se esce qualcosa";
+    ticketPrice = km * priceKm;
 }
 console.log(ticketPrice);
+
+// OUTPUT
+document.getElementById(ticket_price).innerHTML = ticketPrice;
