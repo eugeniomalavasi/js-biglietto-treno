@@ -31,8 +31,8 @@ if (age < 18) {
     console.log(ticketPrice , typeof ticketPrice);
 }
 
-// ticketPrice = ticketPrice.toString();
-// console.log(typeof ticketPrice);
+// metodo tofixed utilizzato per avere solo due decimali dopo il punto
+ticketPrice = ticketPrice.toFixed(2)
 
 // OUTPUT
 document.getElementById("finalprice").innerHTML = ticketPrice;

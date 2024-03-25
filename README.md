@@ -21,7 +21,7 @@ L'output del prezzo finale va messo fuori in forma umana (con massimo due decima
     - 0.21 * km
 - [x] calcolo prezzo biglietto per < 18 
 - [x] calcolo prezzo biglietto per > 65
-- [ ] BONUS: mettere all'output del prezzo del biglietto due decimali dopo la virgola
+- [x] BONUS: mettere all'output del prezzo del biglietto due decimali dopo la virgola
 
 ## Output
 - [x] stampare in HTML ticketPrice
