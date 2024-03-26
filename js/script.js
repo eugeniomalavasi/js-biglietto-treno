@@ -2,9 +2,9 @@
 // alert ("ciao come va?")
 
 // INPUT
-let km = prompt("Quanti km vuoi percorrere"); //string
+let km = prompt("Quanti km vuoi percorrere"); //string  | null
 console.log(km , typeof km);
-let age = prompt("Quanti anni hai?"); //string
+let age = prompt("Quanti anni hai?"); //string | null
 console.log(age , typeof age);
 
 // trasformazione string in numeri
@@ -31,8 +31,6 @@ if (age < 18) {
     console.log(ticketPrice , typeof ticketPrice);
 }
 
-// metodo tofixed utilizzato per avere solo due decimali dopo il punto
-ticketPrice = ticketPrice.toFixed(2)
-
 // OUTPUT
-document.getElementById("finalprice").innerHTML = ticketPrice;
+// metodo tofixed utilizzato per avere solo due decimali dopo il punto
+document.getElementById("finalprice").innerHTML = ticketPrice.toFixed(2);
